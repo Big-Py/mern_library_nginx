@@ -1,0 +1,8 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "A simple MERN API",
+  "main": "server.js",
+  "author": "hoya",
+  "license": "MIT"
+}
