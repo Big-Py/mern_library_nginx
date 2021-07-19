@@ -2,9 +2,13 @@
 require("dotenv").config(); 
 //var, let과는 다르게 const키워드는 선언과 동시에 리터럴 값을 할당해주어야하며, 재할당이 불가능하다
 const express = require("express"); 
+const connectToDB=require("./database/db");
 
 //Express 모듈을 실행해 app 변수에 할당, 익스프레스 내부에 http모듈이 내장되어 있으므로 서버의 역할을 할 수 있다.
 const app = express(); 
+
+connectToDB();
+
 app.use(express.json());
 
 //같은 방법 app.set(키,값) -> app.get(키) 사용가능
