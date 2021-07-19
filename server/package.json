@@ -30,7 +30,7 @@
   },
   "scripts":{
     "start": "node server.js",
-    "dev": "nodemon server.js" //nodemon : 서버를 자동으로 재시작(개발할때 주로 사용)
+    "dev": "nodemon server.js"
   }
 
 }
